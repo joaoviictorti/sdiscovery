@@ -1,4 +1,4 @@
-# Revshell
+# Sdiscovery
 
 <h1 align="center">
   <img src="img/sdiscovery.png" alt="sdiscovery" width="200px"></a>
