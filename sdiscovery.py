@@ -44,9 +44,9 @@ class Portdiscovery():
     
 parser = argparse.ArgumentParser(description=menu(), formatter_class=RawTextHelpFormatter, usage="\npython3 sdiscovery.py --ip 192.168.0.0/24\npython3 sdiscovery.py --ip 192.168.0.0/16\npython3 sdiscovery.py --ip 192.168.0.20")
 parser.add_argument('--netblock','--ip', dest='ip', action='store', type=str, help='Insert IP', required=True)
-parser.add_argument('--pd','--port-discovery', dest='port_discovery', action=argparse.BooleanOptionalAction)
-parser.add_argument('--hd','--host-discovery', dest='host_discovery', action=argparse.BooleanOptionalAction)
-parser.add_argument('-a','--all', dest='all', action=BooleanOptionalAction)
+parser.add_argument('--pd', dest='port_discovery', action=argparse.BooleanOptionalAction, help="Perform port discovery")
+parser.add_argument('--hd', dest='host_discovery', action=argparse.BooleanOptionalAction,help="Perform host discovery")
+parser.add_argument('-a','--all', dest='all', action=BooleanOptionalAction,help="Perform post and host discovery")
 args=parser.parse_args()
 
 if __name__ == "__main__":
