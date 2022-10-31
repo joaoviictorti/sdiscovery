@@ -19,7 +19,7 @@
 
 O Sdiscovery é uma ferramenta que gera scripts para descoberta de hosts e portas válidas na rede. Possui uma arquitetura modular simples e otimizada para velocidade. Sdiscovery é construído para fazer apenas uma coisa gera scripts, e faz isso muito bem.
 
-Projetei o `Sdiscovery` mantive um modelo consistentemente passivo para torná-lo útil para testadores de penetração.
+Projetei o `Sdiscovery` e mantive um modelo consistentemente passivo para torná-lo útil para testadores de penetração.
 
 # Características
 
