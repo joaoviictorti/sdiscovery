@@ -1,3 +1,5 @@
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=0000FF&height=120&section=header"/>
+
 # Sdiscovery
 
 <h1 align="center">
@@ -77,3 +79,5 @@ for a in $(seq 1 255);do ping -c 1 192.168.4.$a;done | grep "64 bytes" >> hosts
 ```
 
 
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=0000FF&height=120&section=footer"/>
